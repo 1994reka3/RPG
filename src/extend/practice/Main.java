@@ -18,7 +18,7 @@ public class Main {
 
 		// 対戦回数に初期値代入
 		int battleCount = 1;
-		// 人間のリストが1以上の場合またはモンスターのリストが1以上の場合繰り返す。
+		// 人間のリストが1以上の場合かつモンスターのリストが1以上の場合繰り返す。
 		while (humanList.size() >= 1 && monsterList.size() >= 1) {
 			// 人間をランダムで取得
 			int humanIndex = Rand.get(humanList.size());
